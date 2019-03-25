@@ -1,11 +1,14 @@
 @import "main.css";
 .logo img {
-	width: 150px;
+	width: 200px;
 	display: block;
 	float: left;
 }
 .zagolovok h2,h3 {
 	text-align: center;
+    font-size: 35px;
+    padding-top: 15px; 
+
 }
 .dropdown-menu li a:hover {
 	background: orange;
@@ -66,20 +69,32 @@ a:hover {
     text-decoration: none;
     text-shadow: 0 1px 0 #ffffff;
 }
-.Footo img {
-    float: left;
+.photo img {
+    border-radius: 5px;
 }
-
-
-.shrift {
-   font-family: Lora;
-   font-weight: normal;
-    font-size:25px; 
+.collection-text {
+    margin-left: 160px;
+    line-height: 25px;
 }
-.telefon p {
-    font-size: 10px;
+#services {
+   background: #FF8C00;
+   color: black; 
 }
-.maps{
-   width: 1900px; 
-   height: 300px;
+#recent-works {
+    background-color: #1E90FF;
+}
+.desc h5 {
+    font-size: 13px;
+}
+.desc a {
+    color: white;
+}
+.desc a:hover {
+    color: #FFFF00;
+}
+.pull-left {
+    font-size: 20px;
+}
+.clearfix h4 {
+    color: #9ACD32;
 }
